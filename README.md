@@ -51,8 +51,8 @@ pip install pynput
 # 4. Run the keylogger
 python keylogger.py
 ```
-The script logs all keystrokes into (`log.txt`) in the current directory.
-Stop it anytime with (`Ctrl + C`).
+The script logs all keystrokes into `log.txt` in the current directory.
+Stop it anytime with `Ctrl + C`.
 
 ## 💣 Convert to Executable (Windows Payload Simulation)
 
@@ -65,8 +65,8 @@ pip install pyinstaller
 # 2. Build the executable (stealth mode)
 pyinstaller --noconsole --onefile keylogger.py
 ```
-The executable will be created in the (`dist/`) directory as (`keylogger.exe.`)
-This (`.exe`) runs silently in the background.
+The executable will be created in the `dist/` directory as `keylogger.exe.`
+This `.exe` runs silently in the background.
 
 ## 📝 License
 
