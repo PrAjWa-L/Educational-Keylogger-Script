@@ -32,5 +32,22 @@ This is a simple but functional Python-based keylogger designed for **educationa
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/educational-keylogger.git
-cd educational-keylogger
+git clone https://github.com/PrAjWa-L/Educational-Keylogger-Script.git
+cd Educational-Keylogger-Script
+
+### 2️⃣ Create a Virtual Environment (optional but recommended)
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+
+# On Linux/macOS:
+source venv/bin/activate
+
+3️⃣ Install Dependencies
+
+```bash 
+pip install pynput
+
+
